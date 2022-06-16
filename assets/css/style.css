@@ -561,7 +561,7 @@ ul {
       flex-wrap: wrap;
   margin: 0 auto;
 }
-.header-menu.header-menu__container {
+.header-menu__container {
   -webkit-box-flex: 1.4;
       -ms-flex-positive: 1.4;
           flex-grow: 1.4;

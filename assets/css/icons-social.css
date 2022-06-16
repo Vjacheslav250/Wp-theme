@@ -1,0 +1,118 @@
+@font-face {
+  font-family: 'icomoon';
+  src:
+    url('../fonts/icomoon.ttf?9y5l2c') format('truetype'),
+    url('../fonts/icomoon.woff?9y5l2c') format('woff'),
+    url('../fonts/icomoon.svg?9y5l2c#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="_icon-"], [class*=" _icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  /* speak: never; */
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+._icon-reddit:before {
+  content: "\e917";
+  font-size: 32px;
+  color: #323642;
+  /* padding-left: 32px; */
+  /* border: 1px solid black;  */
+  /* background-color: chartreuse; */
+
+}
+._icon-SL .path1:before {
+  content: "\e918";
+  /* color: rgb(50, 54, 66); */
+}
+._icon-SL .path2:before {
+  content: "\e919";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+._icon-facebook:before {
+  content: "\e903a";
+  font-size: 28px;
+  color: #323642;
+  /* border: 1px solid black;  */
+  /* background-color: chartreuse; */
+
+
+
+}
+._icon-linkedin .path1:before {
+  content: "\e904a";
+  /* color: rgb(50, 54, 66); */
+}
+._icon-linkedin .path2:before {
+  content: "\e904b";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+._icon-twitter:before {
+  content: "\e906a";
+  font-size: 22px;
+  color: #323642;
+  
+  /* padding-left: 31px; */
+  /* border: 1px solid black;  */
+  /* background-color: chartreuse; */
+
+
+
+}
+._icon-google-plus2:before {
+  content: "\e907a";
+  font-size: 35px;
+  color: #323642;
+  /* border: 1px solid black;  */
+  /* background-color: chartreuse; */
+}
+._icon-youtube .path1:before {
+  content: "\e908a";
+  /* color: rgb(50, 54, 66); */
+
+}
+._icon-youtube .path2:before {
+  content: "\e908b";
+  margin-left: -1.4482421875em;
+  color: rgb(255, 255, 255);
+}
+/* ._icon-google-plus:before {
+  content: "\ea8b";
+  font-size: 22px;
+  color: #323642;
+  padding-left: 32px;
+  border: 1px solid black; 
+  background-color: chartreuse;
+} */
+
+._icon-linkedin {
+  font-size: 28px;
+  color: #323642;
+  /* padding-left: 31px; */
+ 
+  line-height: 34px;
+  /* vertical-align: 10px; */
+  /* border: 1px solid black;  */
+  /* background-color: chartreuse; */
+}
+._icon-youtube {
+  font-size: 28px;
+  color: #323642;
+  /* padding-left: 31px; */
+  /* border: 1px solid black;  */
+  /* background-color: chartreuse;   */
+}

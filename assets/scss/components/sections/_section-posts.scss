@@ -1,0 +1,230 @@
+.posts { 
+  column-gap: 20px;  
+  display: grid; 
+  grid-template-areas:
+    "pc sr"
+    "pc sb";
+    grid-template-rows: 80px 1fr;
+  margin: 0 auto;   
+
+  &__container {
+    grid-area: pc;  
+    max-width: 780px;
+  
+    & h1 {
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 300;
+      font-size: 32px;
+      line-height: 44px;  
+      color: #22252E;
+      margin-bottom: 40px;
+      margin-top: 0px;
+    }  
+  }
+}
+.recent__posts {
+  display: flex;
+  background: #FFFFFF;  
+  margin: 0 auto; 
+  padding: 0px 0px 55px 0px;  
+}
+.recent__posts-part {
+  display: flex;
+  max-width: 780px;  
+  background: #FFFFFF;  
+  margin: 0 auto; 
+  padding: 28px 0px 26px 0px;
+}
+hr {
+  border-top:  #EBECED; 
+}
+.hr {
+  max-width: 740px; 
+  margin: 0;  
+}
+._num {
+  padding: 0px 0px 155px 0px;
+}
+._part {
+  margin-top: 6px;
+}
+.rc_btm {
+  margin-top: 40px;
+}
+.posts__image {   
+  width: 280px;
+  height: 180px; 
+  
+  & img { 
+    width: 280px;
+    height: 180px; 
+    vertical-align: bottom; 
+    object-fit:cover; 
+    margin: 0 auto;  
+  }  
+}
+.post-prim {
+  max-width: 480px; 
+  margin: 0px 20px 0 40px;  
+
+  &__info {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #323642;  
+    margin-bottom: 7px; 
+  }
+}
+.post-prim-part {
+  max-width: 480px;
+  margin: 0px 40px 0px 20px;
+}
+._part a {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.8px;
+}
+.posts-item_article a {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 34px;
+  color: #22252E;
+  margin-top: 0;
+  margin-bottom: 7px;
+}
+.post-actions {  
+  width: 260px;
+  height: 40px;
+  margin: 42px auto;
+}
+.btn-secondary {  
+  object-fit: cover;
+  height: 40px;
+  width: 260px;
+}
+
+@media (max-width: 992px) and (min-width: 250px) {
+  ._for-view {
+    margin-top: 0;
+  } 
+}
+@media (max-width: 940px) and (min-width: 250px) {
+  .posts {     
+    grid-template-areas:
+    "sr"
+    "pc"
+    "sb";   
+    grid-auto-columns: 1fr; 
+    padding-left: 15px;
+    margin: 0 auto;
+  } 
+  .search {   
+    max-width: 640px; 
+    padding-left: 0px;
+    border-left: none;
+    margin-bottom: 40px;
+  }
+  .sidebar-blog {    
+    width: inherit;    
+    border-left: none; 
+    justify-content: center; 
+
+    &__container {
+      max-width: none; 
+    }
+  }
+  .site-news-item {
+    text-align: center;
+  }
+}  
+
+@media (max-width: 557px) and (min-width: 250px) {
+  .posts {
+    padding-left: 0; 
+    &__container {
+      padding-top: 40px;         
+      max-width: 335px;
+      margin: 0 auto;  
+    }
+    &__image {
+      width: 315px;
+      height: 200px;  
+      & img {
+        width: 315px;
+        height: 200px;         
+      }      
+    }
+    &__content {
+      max-width: 315px;      
+    }   
+  }
+  .search {      
+    padding-left: 25px;
+    padding-right: 25px;
+    max-width: 400px;      
+    margin-top: 40px;   
+  }
+  .recent__posts {   
+    display: block;   
+    padding-bottom: 43px; 
+
+    &-part {
+      display: block;   
+      padding-bottom: 37px;
+      padding-top: 22px;
+    }
+  }
+  .post-prim {   
+    margin: 15px 0px 0px 0px;
+    &__info {
+      margin-bottom: 4px;
+    }
+    &-part {
+      margin: 20px 0px 0px 0px;
+    }    
+  }
+  .icon-comment {
+    padding-left: 18px;
+    margin-top: 0px;
+    & img {
+      display: none;
+    }
+  }
+  .post-actions {
+    width: 315px; 
+    height: 40px; 
+    margin: 42px 0px 36px 0px;    
+  }
+  .btn-secondary img {     
+    object-fit: cover;    
+    width: 315px;
+  }
+  .poster-panel {
+    padding-left: 5px;
+    width: 315px;
+  }
+
+  .site-news-item__image img {
+    width: 315px;
+  } 
+} 
+@media (max-width: 397px) and (min-width: 250px) {
+  .search {   
+    max-width: 335px;    
+    margin-top: 40px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .posts__container {
+    padding-left: 9px;    
+    max-width: 315px;
+  }
+}
+ 
+

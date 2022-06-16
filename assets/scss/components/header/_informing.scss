@@ -1,0 +1,135 @@
+.informing {
+  align-items: center;
+  background: #22252E;
+  display: flex;
+  font-family: 'Roboto';
+  font-style: normal; 
+  max-width: 1600px;
+  height: 40px;
+}
+.informing-container {
+  flex: 1 1 auto;  
+  justify-content: center;
+  align-items: center;
+  display: flex;   
+  padding-left: 43px;
+  height: 24px;   
+}
+.attention-warning {
+  display: flex;
+  align-items: center; 
+}
+.ip-adress {  
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #889099;
+  margin-left: 32px;
+}
+.block {
+  display: flex;
+}
+.remark { 
+  font-weight: 700;
+  font-size: 12px;  
+  color: #FF8D00;
+  margin-left: 5px;
+}
+.your-isp { 
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #889099;
+  margin-left: 32px;
+}
+.learn { 
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  margin-left: 32px; 
+  & a {
+    color: #FFFFFF;
+  }
+}
+.close {  
+  justify-content: flex-end;
+  padding-right: 19px;    
+}
+.warning {
+  width: 22px;  
+  height: 19px; 
+}
+
+@media (max-width: 720px) and (min-width: 250px) {
+  .block {
+    flex-basis: 100%;
+    order: 1;
+  }
+  .informing-container {    
+    flex-wrap: wrap;
+  }
+  .attention-warning {    
+    flex: 1 1 auto;
+    align-items: flex-start;   
+    height: 24px;
+    padding-bottom: 3px;   
+  }
+  .warning {
+    padding-left: 22px;    
+  }
+  .learn {      
+    flex: 1 1 auto;
+    margin: 0;
+    height: 22px;    
+    text-align: end;    
+    & a {
+      padding-right: 13px;
+    }
+  }
+  .informing {
+    height: 68px;  
+  }
+  .informing-container {  
+    padding: 0;
+    height: 40px;
+  }  
+  .remark {
+    padding: 0px 0px 0px 5px;
+    margin: 0;
+    line-height: 19px; 
+  }
+  .close {
+    padding-right: 11px;     
+    height: 43px; 
+    &-img {      
+      margin-top: -3px;
+    }
+  } 
+  .ip-adress {     
+    margin-left: 20px;      
+  }
+  .your-isp {    
+    padding-left: 12px;
+    margin: 0; 
+  }
+}
+@media (max-width: 372px) and (min-width: 346px) {
+  .learn, .ip-adress, .your-isp, .remark {
+    font-size: 11px;
+  }
+  .your-isp {    
+    padding-left: 12px;
+    margin: 0; 
+  }
+  .ip-adress {     
+    margin-left: 20px;      
+  } 
+}
+@media (max-width: 346px) and (min-width: 250px) {
+  .learn, .ip-adress, .your-isp, .remark {
+    font-size: 10px;
+  }
+  .block {    
+    flex: none;
+  } 
+}

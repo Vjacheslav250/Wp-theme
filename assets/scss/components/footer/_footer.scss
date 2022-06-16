@@ -1,0 +1,170 @@
+.footer {
+  max-width: 1200px;    
+  padding-right: 10px;
+  padding-left: 10px;  
+  margin-right: auto;
+  margin-left: auto;
+}
+.footer-content__container {
+  display: grid; 
+  grid-template-areas:
+  "cm pg lg bt"
+  "cm lm lg bt"
+  "cm lm lg sl";
+  grid-auto-columns: 1fr 1fr 1fr 600px;  
+}
+.content-company__title {
+  grid-area: cm;  
+  
+}
+.content-programs__title {
+  grid-area: pg;   
+}
+
+.learn-more__title {
+  grid-area: lm; 
+  margin-top: 24px;  
+  & h4 {
+    margin-bottom: 25px;
+  }
+}
+.content-legal__title {
+  grid-area: lg; 
+}
+.content-about__title {
+  grid-area: bt;  
+}
+.footer__social {
+  grid-area: sl; 
+  margin-bottom: 90px;  
+}
+.social {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 31.5px;
+  height: 31px;  
+
+  &_text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700; 
+    font-size: 14px;
+    line-height: 18px;  
+    letter-spacing: 1px;
+    text-transform: uppercase;  
+    color: #323642;
+    margin-top: 30px;
+    margin-bottom: 25px;  
+  }
+}
+.footer-content__container {
+  margin-top: 39px;
+
+  & h4 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;  
+    letter-spacing: 1px;
+    text-transform: uppercase;  
+    color: #323642;
+  }
+  & ul li a {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;   
+    color: #889099;
+    text-transform: none;
+  }
+  & li  {
+    padding-top: 3px;
+    padding-bottom: 9px;
+  }
+}
+.company-name {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 27px;
+  line-height: 33px;
+  color: #000000;
+  margin-top: 84px;
+}
+.content-map-data p {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;  
+  color: #889099;    
+  & a { 
+    color: #889099;  
+  }
+}
+.mag-editor_text {
+  margin-bottom: 0;
+  margin-top: 20px;
+}
+.mag-quote_text {
+  margin-top: 0;
+  margin-bottom: 0px;
+}
+.london_text {
+  margin-top: 17px;
+}
+
+@media (max-width: 1000px) and (min-width: 250px) {
+
+  .footer {
+    max-width: 600px;
+    padding-right: 16px;
+    padding-left: 16px;   
+  } 
+  .footer-content__container {    
+    grid-template-areas:
+      "cm pg"
+      "cm lm"
+      "lg sl"
+      "bt bt";
+      align-items: baseline;    
+    justify-content: space-between;
+  }
+
+  .footer-content__container a.jobs {
+    font-size: 0px;
+
+  }
+  .footer-content__container a.jobs::before {
+    content: 'Jobs';   
+    font-size: 14px;
+  }
+  .content-about__title {
+    padding-bottom: 40px;
+  }
+}
+
+@media (max-width: 420px) and (min-width: 250px) {
+  .footer {
+    max-width: 335px;
+  } 
+  .footer-content__container {
+    margin-top: 30px;    
+    grid-auto-columns: 150px 155px;
+    grid-auto-rows: 100px 262px 215px;
+  }
+
+  .social {
+    justify-content: space-between;
+    gap: 20px;
+  }
+  .company-name {
+    margin-top: 40px;
+  }
+  .learn-more__title h4 {
+    margin-bottom: 35px;
+  } 
+}

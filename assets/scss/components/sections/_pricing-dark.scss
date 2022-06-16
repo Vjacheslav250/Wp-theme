@@ -1,0 +1,344 @@
+.pricing-dark {
+  background: linear-gradient(135deg, #3D4251 0%, #272B35 100%);
+  margin-top: 67px; 
+
+  &__container { 
+    max-width: 1200px;   
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 28px;
+    margin-right: auto;
+    margin-left: auto;  
+  }
+  
+  &__title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: center;
+    letter-spacing: -0.5px;
+    padding-top: 100px;  
+    margin-bottom: 36px;  
+    color: #FFFFFF; 
+    margin-left: auto; 
+    margin-right: auto;
+   
+    & br {
+      display: none;
+    }
+  }
+}
+.postcard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 34px;  
+}
+.card-1 {
+  text-align: center;
+  width: 380px;
+  height: 340px;  
+  background: #FFFFFF;  
+  border-radius: 6px;
+  border: 1px solid #EBECED;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.501961); 
+}
+.price-1__title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;  
+  text-align: center;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  color: #323642;
+}
+.price-1__title::before, .price-3__title::before, .price-2__title::before {
+  content: "";
+  position: relative;  
+  top: 31px;
+  left: 92px;
+  display: block;  
+  height: 2px;
+  width: 24px;  
+  border-bottom: 2px solid #4CB649;
+}
+.price-2__title, .price-3__title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #323642;
+}
+.price-hr {
+  margin: 0;
+}
+.price-1, .price-2, .price-3 {
+  margin-top: 30px;
+}
+.dollar {
+  padding-right: 6px;
+  vertical-align: 4px;  
+}
+.mark, .dollar {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 32px;
+  color: #22252E; 
+}
+.num {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 56px;
+  line-height: 66px;
+  letter-spacing: -1.5px;
+  color: #22252E;  
+}
+.price-info {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  text-align: center;
+  color: #323642;
+  padding-top: 19px; 
+
+  & s {
+    color:  #F24458;
+  }
+  & b {
+    vertical-align: -4px;
+  }
+}
+._info-3 {
+  padding-top: 8px;
+}
+.card-2 { 
+  text-align: center;
+  width: 376px;
+  height: 376px;  
+  background: #FFFFFF;
+  border: 4px solid #4CB649;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.501961);  
+  border-radius: 6px;    
+}
+.card-3 {
+  text-align: center;
+  width: 380px;
+  height: 340px;  
+  background: #FFFFFF;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.501961);
+  border: 1px solid #EBECED;
+  border-radius: 6px;
+}
+.card-1-container, .card-3-container {
+  padding-top: 48px;  
+  margin: 0 auto;
+  height: 262px;
+  width: 205px;
+  
+}
+.card-2-container {  
+  padding-top: 55px;
+  margin: 0 auto;
+  height: 262px;
+  width: 205px;  
+}
+.btn-actions-1 {
+  padding-top: 29px;
+}
+.btn-actions-2 {
+  width: 205px;
+  padding-top: 23px;
+}
+.btn-actions-3 {
+  padding-top: 14px;
+}
+.btn-lt-2 {  
+  height: 39.2px;
+  width: 205px;   
+  align-items: center;  
+  box-sizing: border-box;
+  color: #FFFFFF; 
+  display: inline-flex;  
+  justify-content: center;  
+  padding: 6px 20px;  
+  text-align: center;
+  vertical-align: top;
+  white-space: nowrap;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;  
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  background: linear-gradient(0deg, #4CB649 0%, #5DDF5A 100%);
+  border-radius: 30px;  
+}
+.ways-to-pay {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;  
+  color: #FFFFFF;
+  padding-left: 5px;  
+}
+.ways-pay-img {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-left: 35px;   
+}
+._icon-amex {
+ font-size: 51px;  
+  padding-left: 37.01px;
+}
+.play-mg { 
+  padding-left: 26px;
+}
+.amazon-pay {
+  width: 119.79px;
+  height: 23px;  
+  padding-left: 40.01px;
+}
+
+.pay-back__title {
+  gap: 20px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+  padding-right: 9px;  
+  flex-wrap: wrap;
+  
+  & li {
+    padding-top: 0px;
+  }  
+}
+.pay-back ul {
+  margin: 9px 0px 11px 0px;  
+}
+.how-to-pay::before {
+  position: relative;
+  top: 19px;
+  left: 230px;
+  content: "⃗";   
+  font-size: 33px;
+  font-weight: 900;
+}
+.gift-card::before {
+  position: relative;
+  top: 19px;
+  left: 165px;
+  content: "⃗";   
+  font-size: 33px;
+  font-weight: 900;  
+}
+.how-to {
+  width: 239px;  
+}
+.how-to-pay, .gift-card {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  color: #4CB649;    
+}
+.gift {
+  width: 176px; 
+  padding-left: 18px;  
+}
+.mdn-cta-container button .icon {
+  color: #fff;
+  height: 16px; 
+}
+@media (max-width: 1168px) and (min-width: 250px) {
+  .postcard {  
+    justify-content: space-evenly;     
+    margin: 0 auto;
+  }
+  .card-2 {
+    order: 1;
+    margin-top: 17px;
+  } 
+  .ways-to-pay {
+    margin-top: 41px;
+    padding-left: 0;
+  } 
+}
+@media (max-width: 788px) and (min-width: 250px) {
+  .card-2 {
+    order: 0;    
+  }
+  .card-3 {   
+    margin-top: 17px;
+  }
+  .ways-pay-img {    
+    padding-top: 21.51px;
+    padding-left: 0px;
+    justify-content: center;
+    gap: 25px;
+  }
+  .pay-back {
+    margin-top: 30px;
+  } 
+}
+@media (max-width: 490px) and (min-width: 250px) {
+  .pricing-dark__container {
+    max-width: 315px;
+    padding-bottom: 17px;
+  }
+  .pricing-dark__title {
+    font-size: 32px;
+    line-height: 44px;
+    padding-top: 59px;   
+    margin-bottom: 40px;
+    letter-spacing: 0.4px; 
+    & br {
+      display: block;
+    }  
+    
+  }
+  .card-1, .card-2, .card-3 {
+    width: 315px;    
+  } 
+  .card-2 {
+    border: 4px solid #FF8D00;
+  }
+  .btn-lt-2 {    
+    background: linear-gradient(0deg, #FF8D00 3.81%, #FFA400 97.78%);
+  }
+  .ways-pay-img {
+    padding-top: 31.51px;
+    justify-content: center;    
+    gap: 10px 0px;
+  }
+  .play-mg {
+    padding-left: 0;
+  }
+  .amazon-pay {
+    padding-left: 0;
+    padding-top: 15px;
+  }
+}
+
+

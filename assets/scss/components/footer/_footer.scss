@@ -36,7 +36,7 @@
 }
 .footer__social {
   grid-area: sl; 
-  margin-bottom: 90px;  
+  margin-bottom: 90px;    
 }
 .social {
   display: flex;
@@ -150,6 +150,7 @@
 @media (max-width: 420px) and (min-width: 250px) {
   .footer {
     max-width: 335px;
+    margin: 0 auto;
   } 
   .footer-content__container {
     margin-top: 30px;    
@@ -167,4 +168,18 @@
   .learn-more__title h4 {
     margin-bottom: 35px;
   } 
+}
+
+@media (max-width: 340px) and (min-width: 250px) {
+
+  .footer-content__container {
+    margin-top: 30px;      
+    grid-auto-columns: 130px 100px;    
+    grid-auto-rows: 120px 266px 230px;
+    justify-content: space-evenly
+  }
+
+  .company-name {
+   text-align: center;
+  }
 }

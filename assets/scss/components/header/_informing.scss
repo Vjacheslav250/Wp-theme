@@ -5,7 +5,7 @@
   font-family: 'Roboto';
   font-style: normal; 
   max-width: 1600px;
-  height: 40px;
+  height: 40px;  
 }
 .informing-container {
   flex: 1 1 auto;  
@@ -28,6 +28,7 @@
 }
 .block {
   display: flex;
+  flex-wrap: wrap;
 }
 .remark { 
   font-weight: 700;
@@ -113,23 +114,20 @@
     margin: 0; 
   }
 }
-@media (max-width: 372px) and (min-width: 346px) {
-  .learn, .ip-adress, .your-isp, .remark {
-    font-size: 11px;
-  }
-  .your-isp {    
-    padding-left: 12px;
+@media (max-width: 372px) and (min-width: 250px) { 
+  .your-isp {       
     margin: 0; 
   }
   .ip-adress {     
     margin-left: 20px;      
   } 
 }
-@media (max-width: 346px) and (min-width: 250px) {
-  .learn, .ip-adress, .your-isp, .remark {
-    font-size: 10px;
+@media (max-width: 360px) and (min-width: 250px) {
+  .informing {
+    height: 80px;  
   }
-  .block {    
-    flex: none;
-  } 
+  .your-isp {
+    margin-left: 20px;
+    padding: 0;
+  }  
 }

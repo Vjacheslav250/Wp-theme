@@ -117,3 +117,19 @@
     border-radius: 5px 5px 0px 0px;     
   }
 }
+
+@media (max-width: 397px) and (min-width: 250px) {
+ 
+  .about__container {
+    max-width: 334px;
+    height: 599px;
+  }
+  .about__image img {
+    background-size: 100% auto;     
+    max-width: 334px;
+    height: 223px;
+    margin: 0;
+    padding: 0;    
+  }    
+}
+

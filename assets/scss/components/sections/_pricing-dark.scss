@@ -199,26 +199,16 @@
   font-size: 18px;  
   color: #FFFFFF;
   padding-left: 5px;  
+  margin-top: 51.5px;
+  line-height: 10px;
+  gap: 29px;
 }
-.ways-pay-img {
+.ways-pay-img {  
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  padding-left: 35px;   
+  gap: 33px;  
 }
-._icon-amex {
- font-size: 51px;  
-  padding-left: 37.01px;
-}
-.play-mg { 
-  padding-left: 26px;
-}
-.amazon-pay {
-  width: 119.79px;
-  height: 23px;  
-  padding-left: 40.01px;
-}
-
 .pay-back__title {
   gap: 20px; 
   display: flex;
@@ -226,13 +216,12 @@
   justify-content: center;  
   padding-right: 9px;  
   flex-wrap: wrap;
+  margin-top: 26.5px;
+  margin-bottom: 12px;
   
   & li {
     padding-top: 0px;
   }  
-}
-.pay-back ul {
-  margin: 9px 0px 11px 0px;  
 }
 .how-to-pay::before {
   position: relative;
@@ -285,19 +274,19 @@
     padding-left: 0;
   } 
 }
+
+@media (max-width: 812px) and (min-width: 250px) {
+  .ways-pay-img {      
+    justify-content: center;    
+  }
+}
 @media (max-width: 788px) and (min-width: 250px) {
   .card-2 {
     order: 0;    
   }
   .card-3 {   
     margin-top: 17px;
-  }
-  .ways-pay-img {    
-    padding-top: 21.51px;
-    padding-left: 0px;
-    justify-content: center;
-    gap: 25px;
-  }
+  } 
   .pay-back {
     margin-top: 30px;
   } 
@@ -315,8 +304,7 @@
     letter-spacing: 0.4px; 
     & br {
       display: block;
-    }  
-    
+    }      
   }
   .card-1, .card-2, .card-3 {
     width: 315px;    
@@ -328,17 +316,50 @@
     background: linear-gradient(0deg, #FF8D00 3.81%, #FFA400 97.78%);
   }
   .ways-pay-img {
-    padding-top: 31.51px;
-    justify-content: center;    
-    gap: 10px 0px;
+    padding-top: 0;
+    margin-top: 0;
+    justify-content: space-between;    
+    gap: 31px 0px;
   }
-  .play-mg {
+  .ways-to-pay {
+    margin-top: 46px;
+    padding-left: 0;
+  } 
+  .icon-visa {
+    padding-left: 0;    
+  } 
+  .icon-aexpress {     
+    padding-right: 25px;    
+  }
+  .pay-pal { 
+    padding-left: 26px;
+  }
+  .icon-bitcoin {
+    padding-left: 7px;    
+  }   
+  .icon-ok-pay {
+    padding-left: 20px;
+    padding-right: 7px;    
+  }
+  .pay-pal {
     padding-left: 0;
   }
-  .amazon-pay {
-    padding-left: 0;
-    padding-top: 15px;
+  .amazon-pay {    
+    padding-left: 108px;    
   }
 }
+@media (max-width: 307px) and (min-width: 250px) {
+  .amazon-pay {    
+    padding-left: 0;    
+  }
+  .ways-pay-img {
+    justify-content: space-around;
+    gap: 31px 33px;
+  }
+  .icon-aexpress {     
+    padding-right: 0;    
+  }
+}
+
 
 

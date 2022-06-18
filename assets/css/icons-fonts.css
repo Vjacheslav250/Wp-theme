@@ -1,10 +1,6 @@
 @font-face {
   font-family: '_icons';
-  src:
-    url('../fonts/icomoon.ttf?9y5l2c') format('truetype'),
-    url('../fonts/icomoon.woff?9y5l2c') format('woff'),
-    url('../fonts/icomoon.svg?9y5l2c#icomoon') format('svg');
-  src:  url('../fonts/_icons.eot?1w88uk');
+    src:  url('../fonts/_icons.eot?1w88uk');
   src:  url('../fonts/_icons.eot?1w88uk#iefix') format('embedded-opentype'),
     url('../fonts/_icons.ttf?1w88uk') format('truetype'),
     url('../fonts/_icons.woff?1w88uk') format('woff'),
@@ -15,15 +11,14 @@
 }
 
 
-[class^="_icon-"], 
-[class*=" _icon-"] {
+[class^="_icon-"], [class*=" _icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: '_icons' !important;
   /* speak: never; */
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
-  /* text-transform: none; */
+  text-transform: none;
   line-height: 1;
  
 

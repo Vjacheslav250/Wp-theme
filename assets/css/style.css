@@ -19,7 +19,8 @@ html {
  * Remove the margin in all browsers.
  */
 body {
-  margin: 0;
+  margin: 0 auto;
+ 
 }
 
 /**
@@ -424,7 +425,7 @@ template {
 }
 
 body {
-  margin: 0;
+  margin: 0 auto;
   max-width: 1600px;
 }
 
@@ -2034,6 +2035,7 @@ hr {
     transition: transform 0.8s ease 0s, -webkit-transform 0.8s ease 0s;
     text-align: center;
     z-index: 2;
+    background-color: #c0c0c1;
   }
 
   .header-navbar__link, .dropdown-toggle {
